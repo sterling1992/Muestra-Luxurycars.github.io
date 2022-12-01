@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Cars</title>
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<!-- Nav Var -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light logo" href="index.html"><img src="img/logo-sf.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item">
+            <a class="nav-link  text-light" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="dashboard/quienesSomos.html">Quienes somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="dashboard/galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="./dashboard/Login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<body>
+  <!-- Body de Inicio -->
+    <!-- Carrusel de imagenes de inicico -->
+    <div id="carouselExampleCaptions" class="carousel slide carrusel_inicio" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active d-none d-md-block" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="d-none d-md-block" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="d-none d-md-block" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" class="d-none d-md-block" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/mustang-gt.jpg" class="d-block img-fluid h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block bg-dark ">
+              <h5>Ford Mustang 5.0 Gt Premium</h5>
+              <p>Encuntra este y otros autos deportivos en nuestra galeria</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/bmw.jpg" class="d-block img-fluid h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block bg-dark ">
+              <h5>Mercedes-benz Cla Cla200</h5>
+              <p>Encuntra este y otros autos ejecutivos en nuestra galeria</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/jeep.jpg" class="d-block img-fluid h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block bg-dark ">
+              <h5>Jeep Wrangler 3.6 Sport Unlimited</h5>
+              <p>Encuntra esta y otras camionetas en nuestra galeria</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/tacoma.jpg" class="d-block img-fluid h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block bg-dark ">
+              <h5>Toyota Tacoma 3.5 Limited</h5>
+              <p>Encuntra esta y otras camionetas en nuestra galeria</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      
+    </div>
+    <!-- Container de ofertas -->
+      <div class="container mt p-5 d-flex justify-content-center">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="h1 display-1 text-center">LAS MEJORES OFERTAS</h1>
+                <!-- Ofertas -->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-4 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/bmw.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <p class="card-text">
+                              Mercedes-benz Cla 200<br>
+                              Precio $175,000.000 <br>
+                              Km 15.000 <br>
+                              Puertas:	3 <br>
+                              Transmisión:	Automática
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-4 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/ford_raptor.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">
+                                Ford Raptor<br>
+                                Precio $375,000.000 <br>
+                                Km 18.000 <br>
+                                Puertas:	5 <br>
+                                Transmisión:	Automática
+                              </p>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-4 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/porshe-911.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <p class="card-text">
+                              Porshe 911<br>
+                              Precio $675,000.000 <br>
+                              Km 7.000 <br>
+                              Puertas:	3 <br>
+                              Transmisión:	Automática
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-4 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/astonMartin.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <p class="card-text">
+                              Aston Martin<br>
+                              Precio $675,000.000 <br>
+                              Km 12.000 <br>
+                              Puertas:	3 <br>
+                              Transmisión:	Automática
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-4 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/txl-blanca.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">
+                                TXL 2.8<br>
+                                Precio $275,000.000 <br>
+                                Km 54.000 <br>
+                                Puertas:	5 <br>
+                                Transmisión:	Automática</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-4 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/ford-explorer.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">
+                                Ford Explorer<br>
+                                Precio $275,000.000 <br>
+                                Km 34.000 <br>
+                                Puertas:	5 <br>
+                                Transmisión:	Automática</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-4 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/mercedez.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <p class="card-text">
+                              Mercedes-benz AMG<br>
+                              Precio $1,175,000.000 <br>
+                              Km 15.000 <br>
+                              Puertas:	5 <br>
+                              Transmisión:	Automática
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-4 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/toyota-txl.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">
+                                TXL 5.0<br>
+                                Precio $375,000.000 <br>
+                                Km 25.000 <br>
+                                Puertas:	5 <br>
+                                Transmisión:	Automática</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="dashboard/galeria.html"><button type="button" class="btn btn-outline-warning boton_coleccion">Ver Coleccion completa</button></a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- por que elegirnos -->
+
+      <div class="container">
+        <div class="row">
+          <h1 class="h1 text-center mb-5">Por que nosotros?</h1>
+            <div class="col-sm-12 col-md-4 d-flex flex-column align-items-center">
+              <p class="h5 text-center">Encuentra vehiculos <br> al mejor precio</p>
+              <img src="icons/euro.gif" width="100px" alt="">
+            </div>
+            <div class="col-sm-12 col-md-4 d-flex flex-column align-items-center">
+              <p class="h5 text-center">Compras rapidas y <br> seguras</p>
+              <img src="icons/compras.gif" width="100px" alt="">
+            </div>
+            <div class="col-sm-12 col-md-4 d-flex flex-column align-items-center">
+              <p class="h5 text-center">Te brindamos el <br> mejor servicio</p>
+              <img src="icons/apoyo-tecnico.gif" width="100px" alt="">
+            </div>
+          </div>
+      </div>
+      <!-- Footeer -->
+      <div class="container-fluid mt-5 pt-3 pb-5 bg-dark text-light">
+        <div class="row text-center">
+            <div class="col-sm-12">
+              <h1 class="h1 fs-1">¡Ven a visitarnos!</h1>
+              <p>¡Y RETÍRATE MANEJANDO TU NUEVO AUTO!</p>     
+            </div>
+            <!-- Contactos -->
+            <div class="container-fluid ms-auto">
+              <div class="row mt-5 ">
+                <div class="col-sm-12 col-md-4 d-flex justify-content-center">
+                  <i class="bi bi-envelope-check fs-2 me-3"></i>
+                  <p>
+                    corporacioncctet@gmail.com <br>
+                    timbiquifrontendpacifico@manosvisibles.org
+                  </p>
+                </div>
+                <div class="col-sm-12 col-md-4 d-flex justify-content-center">
+                  <i class="bi bi-geo-alt fs-2 me-3"></i>
+                  <p>
+                    Timbiquí-Cauca <br>
+                    Barrio San José Bajo
+                  </p>
+                </div>
+                <div class="col-sm-12 col-md-4 d-flex justify-content-center">
+                  <i class="bi bi-telephone fs-2 me-3"></i>
+                  <p>
+                    3102836048 <br>
+                    3116072750</p>
+                </div>
+              </div>
+            </div>
+              <div class="col-sm-12">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.1432592028527!2d-76.59597128526664!3d2.4593859982078103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30039d7270d777%3A0xa749ba51fed22c24!2sCampanario%20Centro%20Comercial!5e0!3m2!1ses!2sco!4v1666925249255!5m2!1ses!2sco" width="70%" height="250" style="border:1px solid white; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              
+              </div>
+              <!-- Iconos de redes sociales -->
+              <div class="col-12 text-center mt-3">
+                <a href="" class="a redes_icons"> <i class="bi bi-facebook me-3 "></i></a>
+                <a href="" class="a redes_icons"> <i class="bi bi-instagram me-3 "></i></a>
+                <a href="" class="a redes_icons"> <i class="bi bi-envelope "></i></a>
+                <a href="" class="a redes_icons"> <i class="bi bi-linkedin"></i></a>
+              </div>
+
+              <div class="col-12 border-top border-white mt-3 pt-3 derechos_aut">
+                <p>© 2022 para Exhibición de autos trabajado en equipo con los estudiantes de Front-end pacífico de Timbiquí cauca</p>
+              </div>
+
+        </div>
+          
+      </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
